@@ -5,7 +5,7 @@
 <p>\/ My first project with JS</p>
 <p>\/ localStorage applied</p>
 
-![todolist](https://user-images.githubusercontent.com/90471309/133939337-77fd7461-8ce8-47df-b5b3-d95cf41ddc75.gif)
+![todolist](https://user-images.githubusercontent.com/90471309/133941379-b644c30d-d95b-4eb4-ba28-8fd225de9e30.gif)
 
 <br>
 - [x] HTML
