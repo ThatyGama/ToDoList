@@ -11,7 +11,9 @@
 - [x] JavaScript
 
 <br>
-<img src="./assets/todolist.gif" title="To Do List" alt="To Do List - Project - Thatyane Gama">
+<h1>
+<img alt="To Do List - Project - Thatyane Gama" title="To Do List" src="./assets/todolist.gif">
+</h1>
 <br>
 <br>
 
