@@ -74,8 +74,8 @@ function addTarefa() {
     if (textoTarefa.length <= 1){
         alert("Por favor, digite uma tarefa...")
         elementoInput.value = ""
-      } else if (textoTarefa.length > 60){
-        alert("O limite máximo é de 60 caracteres")
+      } else if (textoTarefa.length > 50){
+        alert("O limite máximo é de 50 caracteres")
         elementoInput.value = ""
       } else{
     tarefas.push(textoTarefa)

@@ -4,6 +4,15 @@ body{
     background-color: rgb(22, 22, 22, 0.8);
 }
 
+footer h1{
+    color: gainsboro;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+}
+
 .content{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -77,8 +86,9 @@ li{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-right: 20px;
     color: rgb(68, 67, 67);
-    border-bottom: 1px solid rgb(68, 67, 67);
+    border-bottom: 0.5px solid rgb(184, 184, 184);
 }
 
 button{
@@ -109,7 +119,8 @@ button{
 
 #removeBtn{
     color: rgb(168, 82, 82);
-    background-color: white;
+    margin-left: 63%;
+    background-color: gainsboro;
     height: 25px;
     padding-left: 10px;
     padding-right: 10px;
@@ -128,3 +139,65 @@ button{
 
 }
 
+::-webkit-scrollbar{
+    height: 1px;
+    width: 6px;
+}
+
+::-webkit-scrollbar-track{
+    background-color:rgb(68, 67, 67);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color:rgb(156, 156, 156);
+    width: 2px;
+    border-radius: 20px;
+}
+
+
+
+@media screen and (max-width: 600px){
+
+    .content{
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: gainsboro;
+        width: 92%;
+        margin-top: 30px;
+        padding-top: 2px;
+        padding-bottom: 90px;
+        border-radius: 20px;
+        border: 6px solid white;
+        
+    }
+
+    #div2{
+        width: 100%;
+        margin: auto;
+        align-items: center;
+    }
+
+    li{
+        list-style: none;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 40px;
+        color: rgb(68, 67, 67);
+        border-bottom: 0.5px solid rgb(184, 184, 184);
+        overflow-x:auto;
+    }
+
+    li::-webkit-scrollbar{
+        height: 3px;
+    }
+
+    li::-webkit-scrollbar-track{
+        background-color:rgb(156, 156, 156);
+    }
+
+    li::-webkit-scrollbar-thumb{
+        background-color:rgb(43, 138, 43);
+    }
+}
