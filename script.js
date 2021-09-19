@@ -8,14 +8,6 @@ const elementoBotaoDelete = document.querySelector ('#removeBtn')
 
 //função de limite de caracteres a serem contados no HTML
 
-function contador(campoTarefa){
-    var limite = 60
-    var campo = campoTarefa.value.length
-    var maxlength = document.getElementById('task').setAttribute("maxlength, limite")
-    var spanLimite = document.getElementById('limite')
-    var restante = limite - campo
-    spanLimite.innerHTML = campo
-}
 
 //variável que vai ser adicionada, modificada, de forma dinâmica
 var tarefas = []
