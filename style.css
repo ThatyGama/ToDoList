@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(22, 22, 22, 0.8);
+}
+
+.content{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: gainsboro;
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 2px;
+    padding-bottom: 90px;
+    border-radius: 20px;
+    border: 6px solid white;
+    
+}
+
+h1{
+    margin-top: 60px;
+    color:rgb(1, 51, 1)
+}
+
+p{
+    color: gray;
+    font-size: 15px;
+}
+
+#limiteCaracteres{
+    font-size: 10px;
+    letter-spacing: 1px;
+    display: inline;
+    padding: 2px 5px;
+    border: 1px solid rgb(68, 67, 67);
+    border-radius: 10px;
+}
+
+.div1{
+    letter-spacing: 5px;
+}
+
+.div1 input{
+    width: 60%;
+    height: 30px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom:1px solid rgb(68, 67, 67);
+}
+
+.div1 input:hover{
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom:3px solid rgb(68, 67, 67);
+}
+
+textarea, input{
+    background-color: gainsboro;
+}
+textarea:focus, input:focus{
+    outline: 0;
+    border-bottom:3px solid rgb(68, 67, 67);
+}
+
+#div2{
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(68, 67, 67);
+    border-bottom: 1px solid rgb(68, 67, 67);
+}
+
+button{
+    border: 1px solid gray;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+#addBtn{
+    color: green;
+    background-color: white;
+    height: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+#addBtn:hover{
+    background-color: green;
+    color: white;
+}
+
+#addBtn:active{
+    background-color: green;
+    color: white;
+    border: 3px solid rgb(1, 99, 1);
+}
+
+#removeBtn{
+    color: rgb(168, 82, 82);
+    background-color: white;
+    height: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+
+#removeBtn:hover{
+    background-color: rgb(165, 42, 42, 0.8);
+    color: white;
+}
+
+#removeBtn:active{
+    background-color: rgb(165, 42, 42, 0.8);
+    color: white;
+    border: 3px solid rgb(122, 28, 28);
+
+}
+
