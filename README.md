@@ -5,25 +5,23 @@
 <p>\/ My first project with JS</p>
 <p>\/ localStorage applied</p>
 
-<br><br>
+![todolist](https://user-images.githubusercontent.com/90471309/133939337-77fd7461-8ce8-47df-b5b3-d95cf41ddc75.gif)
+
+<br>
 - [x] HTML
+<br>
 - [x] CSS
+<br>
 - [x] JavaScript
 
 <br>
-<h1>
-<img alt="To Do List - Project - Thatyane Gama" title="To Do List" src="./assets/todolist.gif">
-</h1>
 <br>
-<br>
+<p>By the way,
+here is what I still want to do on it:</p>
 
-<p>By the way,</p>
-<p>here is what I still want to do on it:</p>
 - [ ] Character Counter
 - [ ] Allow changing the position of tasks
-
-
-
 <br>
-<br>
+
+
 <h2>Made by Thatyane Gama</h2>
