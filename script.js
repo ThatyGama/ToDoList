@@ -34,6 +34,7 @@ function mostraTarefas() {
         const linkText = document.createElement('img')
         linkText.src = "./assets/lixo.svg"
         linkText.setAttribute('width', '20')
+        linkText.style.cursor = "pointer"
 
         elementoLink.appendChild(linkText)
 
