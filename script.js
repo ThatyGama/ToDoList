@@ -5,9 +5,57 @@ const elementoLista = document.querySelector('ul')
 const elementoInput = document.querySelector('#task')
 const elementoBotao = document.querySelector('#addBtn')
 const elementoBotaoDelete = document.querySelector ('#removeBtn')
+const botaoMercado = document.querySelector("#mercado")
+const botaoPadrao = document.querySelector("#padrao")
 
 //função de limite de caracteres a serem contados no HTML
 
+
+//função que muda a aparência da página
+
+botaoMercado.setAttribute('onclick', 'mudarMercado()')
+
+function mudarMercado(){
+    let feet = document.getElementById("feet")
+    let mercado = document.getElementsByTagName("body")[0]
+    let nomeLista = document.getElementById("nomeLista")
+    let pLista = document.getElementById("pLista")
+    mercado.style.backgroundImage = "url(http://apasshow.com.br/blog/wp-content/uploads/2018/05/Depositphotos_7883907_l-2015-768x543.jpg)"
+    mercado.style.backgroundSize = "cover"
+    mercado.style.backgroundRepeat = "no-repeat"
+    mercado.style.backgroundColor = "gainsboro"
+    feet.style.color = "black"
+    feet.style.borderBottom = "1px dashed black"
+    nomeLista.innerHTML = "Lista de Mercado"
+    pLista.innerHTML = "Escreva os itens para suas compras:"
+    elementoBotaoDelete.innerHTML = "Remover itens"
+    botaoMercado.style.backgroundColor = "green"
+    botaoMercado.style.color = "white"
+    botaoPadrao.style.backgroundColor = "gainsboro"
+    botaoPadrao.style.color = "black"
+ 
+}
+
+botaoPadrao.setAttribute('onclick', 'mudarPadrao()')
+
+function mudarPadrao(){
+    let feet = document.getElementById("feet")
+    let padrao = document.getElementsByTagName("body")[0]
+    let nomeLista = document.getElementById("nomeLista")
+    let pLista = document.getElementById("pLista")
+    padrao.style.backgroundImage = "none"
+    padrao.style.backgroundColor = "rgb(22, 22, 22, 0.8)"
+    feet.style.color = "gainsboro"
+    feet.style.borderBottom = "1px dashed gainsboro"
+    nomeLista.innerHTML = "Lista de Tarefas"
+    pLista.innerHTML = "Escreva as tarefas para o seu dia:"
+    elementoBotaoDelete.innerHTML = "Remover tarefas"
+    botaoMercado.style.backgroundColor = "gainsboro"
+    botaoMercado.style.color = "black"
+    botaoPadrao.style.backgroundColor = "green"
+    botaoPadrao.style.color = "white"
+
+}
 
 //variável que vai ser adicionada, modificada, de forma dinâmica
 var tarefas = []
