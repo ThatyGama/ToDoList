@@ -8,6 +8,8 @@
 <p>\/ My first project with JS</p>
 <p>\/ localStorage applied</p>
 
+Site: https://thatygama.github.io/to-do-list/
+
 ![todolist](https://user-images.githubusercontent.com/90471309/134029239-2123263e-4050-49c3-a632-06377256342e.gif)
 
 <br>
