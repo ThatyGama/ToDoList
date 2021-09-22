@@ -20,12 +20,10 @@ function mudarMercado(){
     let mercado = document.getElementsByTagName("body")[0]
     let nomeLista = document.getElementById("nomeLista")
     let pLista = document.getElementById("pLista")
-    mercado.style.backgroundImage = "url(http://apasshow.com.br/blog/wp-content/uploads/2018/05/Depositphotos_7883907_l-2015-768x543.jpg)"
+    mercado.style.backgroundImage = "url(./assets/mercado.jpg)"
     mercado.style.backgroundSize = "cover"
     mercado.style.backgroundRepeat = "no-repeat"
     mercado.style.backgroundColor = "gainsboro"
-    feet.style.color = "black"
-    feet.style.borderBottom = "1px dashed black"
     nomeLista.innerHTML = "Lista de Mercado"
     pLista.innerHTML = "Escreva os itens para suas compras:"
     elementoBotaoDelete.innerHTML = "Remover itens"
